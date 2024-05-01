@@ -14,3 +14,22 @@ npx expo
 
 - [Expo Router: Docs](https://expo.github.io/router)
 - [Expo Router: Repo](https://github.com/expo/router)
+
+## Updating Clerk Secret Key
+
+To update the Clerk secret key used in this project, follow these steps:
+
+1. Navigate to the `app/_layout.tsx` file in your project directory.
+2. Locate the section where the ClerkProvider is initialized.
+3. Replace the `YOUR_CLERK_FRONTEND_API_KEY` with your actual Clerk frontend API key.
+
+Example:
+
+```tsx
+<ClerkProvider frontendApi={process.env.NEXT_PUBLIC_CLERK_FRONTEND_API_KEY}>
+```
+
+Replace `process.env.NEXT_PUBLIC_CLERK_FRONTEND_API_KEY` with your actual Clerk frontend API key.
+
+That's it! Your React Native app will now use the updated Clerk secret key.
+```
