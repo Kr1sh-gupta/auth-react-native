@@ -21,15 +21,13 @@ To update the Clerk secret key used in this project, follow these steps:
 
 1. Navigate to the `app/_layout.tsx` file in your project directory.
 2. Locate the section where the ClerkProvider is initialized.
-3. Replace the `YOUR_CLERK_FRONTEND_API_KEY` with your actual Clerk frontend API key.
+3. Replace the `const CLERK_PUBLISHABLE_KEY` with your actual Clerk frontend API key.
 
 Example:
 
 ```tsx
-<ClerkProvider frontendApi={process.env.NEXT_PUBLIC_CLERK_FRONTEND_API_KEY}>
-```
+import { ClerkProvider } from '@clerk/clerk-react';
 
-Replace `process.env.NEXT_PUBLIC_CLERK_FRONTEND_API_KEY` with your actual Clerk frontend API key.
+const CLERK_PUBLISHABLE_KEY = 'YOUR_CLERK_FRONTEND_API_KEY';
 
-That's it! Your React Native app will now use the updated Clerk secret key.
-```
+<ClerkProvider frontendApi={CLERK_PUBLISHABLE_KEY}>
