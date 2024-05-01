@@ -15,7 +15,7 @@ Each authentication option is organized into its respective folder within this r
 
 ## Contributors
 
-- [https://avatars.githubusercontent.com/u/73186767?s=48&v=4] - [Krish Gupta](https://github.com/Kr1sh-gupta)
+- [Krish Gupta](https://github.com/Kr1sh-gupta)
 
 Feel free to contribute to this repository by adding more authentication options or improving existing ones. Let's make authentication in React Native apps easier for everyone!
 
