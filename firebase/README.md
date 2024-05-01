@@ -1,6 +1,3 @@
-Sure, here's how you can include instructions for updating the Firebase configuration in the README:
-
-```markdown
 ## Updating Firebase Configuration
 
 To update the Firebase configuration used in this project, follow these steps:
