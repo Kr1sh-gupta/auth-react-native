@@ -3,7 +3,7 @@ import { Slot, useRouter, useSegments } from 'expo-router';
 import { useEffect } from 'react';
 import * as SecureStore from 'expo-secure-store';
 
-const CLERK_PUBLISHABLE_KEY = 'pk_test_dGhvcm91Z2gtbW9sbHktOS5jbGVyay5hY2NvdW50cy5kZXYk';
+const CLERK_PUBLISHABLE_KEY = 'YOUR_CLERK_FRONTEND_API_KEY';
 
 const InitialLayout = () => {
   const { isLoaded, isSignedIn } = useAuth();
