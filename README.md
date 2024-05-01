@@ -5,8 +5,8 @@ Welcome to the React Native Authentication Library repository! This repository a
 ## Authentication Options
 
 1. Firebase Authentication
+  - Firebase Authentication is a secure authentication method provided by Google. It offers various sign-in methods, including email/password, phone number, and social media logins.
 2. Clerk Authentication
-   - Firebase Authentication is a secure authentication method provided by Google. It offers various sign-in methods, including email/password, phone number, and social media logins.
    - Clerk Authentication is a modern authentication and user management solution that provides developers with a seamless authentication experience. It offers features like email/password, magic links, and social logins out of the box.
 
 ## How to Use
