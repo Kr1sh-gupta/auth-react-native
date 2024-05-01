@@ -5,13 +5,13 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, on
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDmIJxUHH6UehM6w569hrybyYC8Mq4TTQE",
-  authDomain: "authentication-e290d.firebaseapp.com",
-  projectId: "authentication-e290d",
-  storageBucket: "authentication-e290d.appspot.com",
-  messagingSenderId: "355344955044",
-  appId: "1:355344955044:web:9be67a9d68341a47629831",
-  measurementId: "G-W11954TLLF"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 const app = initializeApp(firebaseConfig);
